@@ -7,26 +7,31 @@ $quotes = [
     "source" => "Pema Chodron",
     "citation" => "When Things Fall Apart",
     "year" => "2016",
+    "tag" => "buddhism",
   ],
   [
     "quote" => "She wasn't doing a thing that I could see, except standing there leaning on the balcony railing, holding the universe together.",
     "source" => "J.D. Salinger",
     "citation" => "A Girl I Knew",
     "year" => "1948",
+    "tag" => "literature",
   ],
   [
     "quote" => "Have patience with all things, but chiefly have patience with yourself. Do not lose courage in considering your own imperfections but instantly set about remedying them - every day begin the task anew.",
     "source" => "Saint Francis de Sales",
+    "tag" => "introspection",
   ],
   [
     "quote" => "The way things are does not determine the way they ought to be.",
     "source" => "Michael J. Sandel",
     "citation" => "Justice: What's the Right Thing to Do?",
     "year" => "2009",
+    "tag" => "philosophy",
   ],
   [
     "quote" => "Courage is being scared to death, but saddling up anyway.",
     "source" => "John Wayne",
+    "tag" => "inspiration",
   ],
 ];
 
@@ -40,6 +45,9 @@ function getRandomQuote($array) {
 function printQuote($array) {
   $quote = getRandomQuote($array);
   $quoteToPrint = " ";
+  if ($quote['tag']) {
+    $quoteToPrint .="<p class='tag'> $quote[tag] </p>";
+  }
   $quoteToPrint .="<p class='quote'> $quote[quote] </p>";
   $quoteToPrint .="<p class='source'> $quote[source]";
   if ($quote['citation']) {

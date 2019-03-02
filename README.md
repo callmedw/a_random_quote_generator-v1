@@ -25,13 +25,11 @@ To pass this code review the following criteria are required:
 - [x] It prints the quote to the page using the appropriate format.
 - [x] Comments are included in the code.
 
-Additionally the app may:
+Additionally the app includes:
 
-- [ ] Inner associative array includes additional elements, such as categorization tags.
-- [ ] Quotes change automatically after a certain amount of time passes.
-- [ ] Background color changes each time the quote changes.
-
-## Setup/Installation Requirements
+- [x] Inner associative array includes additional elements, such as categorization tags.
+- [x] Quotes change automatically after a certain amount of time passes.
+- [x] Background color changes each time the quote changes.
 
 ## Known Bugs
  * none
