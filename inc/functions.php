@@ -30,15 +30,17 @@ $quotes = [
   ],
 ];
 
-//testing 
-echo $quotes[0]['quote'];
-
-
-
+//testing
+// echo $quotes[0]['quote'] . "\n";
 
 // Create the getRandomQuuote function and name it getRandomQuote
+function getRandomQuote($array) {
+  $randomQuote = $array[rand(0, 4)]['quote'];
+  return $randomQuote;
+}
 
-
+//testing
+echo getRandomQuote($quotes);
 
 // Create the printQuote funtion and name it printQuote
 
