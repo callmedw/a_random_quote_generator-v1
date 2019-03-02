@@ -43,7 +43,7 @@ _Contact: hello@mynameisdanaweiss.com_
 ## Technologies Used
 
 * _[CSS](https://www.w3.org/TR/CSS/)_
-* _[HTML]](https://www.w3.org/TR/html5/)_
+* _[HTML](https://www.w3.org/TR/html5/)_
 * _[PHP](https://teamcapybara.github.io/capybara/)_
 
 ## License
