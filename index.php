@@ -14,7 +14,7 @@
       <div id="quote-box">
         <?php echo printQuote($quotes); ?>
       </div>
-      <button id="loadQuote" onclick="window.location.reload(true)" >Show another quote</button>
+      <button id="loadQuote" onclick="window.location.reload(true);" >Show another quote</button>
     </div>
     <!-- Javascripts -->
     <script src="./js/custom.js"></script>
