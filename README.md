@@ -23,7 +23,7 @@ To pass this code review the following criteria are required:
 - [x] Function is named printQuote
 - [x] It calls the getRandomQuote function.
 - [x] It prints the quote to the page using the appropriate format.
-- [ ] Comments are included in the code.
+- [x] Comments are included in the code.
 
 Additionally the app may:
 

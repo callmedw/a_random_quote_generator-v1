@@ -1,6 +1,6 @@
 <?php
-// Create the Multidimensional array of quote elements and name it quotes
-// Each inner array element should be an associative array
+
+// Data-Source: a multidimensional array containing quote, source, citation, and year.
 $quotes = [
   [
     "quote" => "Only to the extent that we expose ourselves over and over to annihilation can that which is indestructible in us be found.",
@@ -30,19 +30,13 @@ $quotes = [
   ],
 ];
 
-//testing
-// echo $quotes[0]['quote'] . "\n";
-
-// Create the getRandomQuuote function and name it getRandomQuote
+// Takes an array (the quotes array) as a parameter and returns a random array from the quotes array.
 function getRandomQuote($array) {
   $randomArray = $array[rand(0, 4)];
   return $randomArray;
 }
 
-//testing
-// echo getRandomQuote($quotes);
-
-// Create the printQuote funtion and name it printQuote
+// Takes an array (quotes array) as a parameter and returns a formatted string with HTML tags to print to screen.
 function printQuote($array) {
   $quote = getRandomQuote($array);
   $quoteToPrint = " ";
@@ -57,8 +51,5 @@ function printQuote($array) {
   $quoteToPrint .= "</p>";
   return $quoteToPrint;
 }
-
-//testing
-// echo printQuote($quotes);
 
 ?>
