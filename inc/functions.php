@@ -35,13 +35,30 @@ $quotes = [
 
 // Create the getRandomQuuote function and name it getRandomQuote
 function getRandomQuote($array) {
-  $randomQuote = $array[rand(0, 4)]['quote'];
-  return $randomQuote;
+  $randomArray = $array[rand(0, 4)];
+  return $randomArray;
 }
 
 //testing
-echo getRandomQuote($quotes);
+// echo getRandomQuote($quotes);
 
 // Create the printQuote funtion and name it printQuote
+function printQuote($array) {
+  $quote = getRandomQuote($array);
+  $quoteToPrint = " ";
+  $quoteToPrint .="<p class='quote'> $quote[quote] </p>";
+  $quoteToPrint .="<p class='source'> $quote[source]";
+  if ($quote['citation']) {
+    $quoteToPrint .="<span class='citation'> $quote[citation] </span>";
+  }
+  if ($quote['year']) {
+    $quoteToPrint .="<span class='year'> $quote[year] </span>";
+  }
+  $quoteToPrint .= "</p>";
+  return $quoteToPrint;
+}
+
+//testing
+// echo printQuote($quotes);
 
 ?>
