@@ -16,13 +16,13 @@ The purpose of this application is to test basic understanding of PHP syntax and
 
 To pass this code review the following criteria are required:
 
-- [ ] Array of associative arrays is named quotes.
-- [ ] Array contains at least 5 quote elements.
-- [ ] Elements in array are an associative array containing at least the quote and source items.
-- [ ] Function is named getRandomQuote and returns a random inner array element from the quotes array.
-- [ ] Function is named printQuote
-- [ ] It calls the getRandomQuote function.
-- [ ] It prints the quote to the page using the appropriate format.
+- [x] Array of associative arrays is named quotes.
+- [x] Array contains at least 5 quote elements.
+- [x] Elements in array are an associative array containing at least the quote and source items.
+- [x] Function is named getRandomQuote and returns a random inner array element from the quotes array.
+- [x] Function is named printQuote
+- [x] It calls the getRandomQuote function.
+- [x] It prints the quote to the page using the appropriate format.
 - [ ] Comments are included in the code.
 
 Additionally the app may:
