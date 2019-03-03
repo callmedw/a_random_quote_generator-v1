@@ -6,7 +6,7 @@
 ## Description
 
 The purpose of this application is to test basic understanding of PHP syntax and including php files.
-This project was created for _[TreeHouse Talentpath](https://join.teamtreehouse.com/talentpath/]_.
+This project was created for _[TreeHouse Talentpath](https://join.teamtreehouse.com/talentpath/)_.
 
 ## Features
 
