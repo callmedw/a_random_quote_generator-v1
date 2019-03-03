@@ -6,7 +6,7 @@
 ## Description
 
 The purpose of this application is to test basic understanding of PHP syntax and including php files.
-This project was created for [TreeHouse Talentpath](https://join.teamtreehouse.com/talentpath/].
+This project was created for _[TreeHouse Talentpath](https://join.teamtreehouse.com/talentpath/]_.
 
 ## Features
 
@@ -40,7 +40,7 @@ _Contact: hello@mynameisdanaweiss.com_
 * _[CSS](https://www.w3.org/TR/CSS/)_
 * _[HTML](https://www.w3.org/TR/html5/)_
 * _[PHP](https://teamcapybara.github.io/capybara/)_
-*_[Javascript](https://www.javascript.com/)_
+* _[Javascript](https://www.javascript.com/)_
 
 ## License
 
