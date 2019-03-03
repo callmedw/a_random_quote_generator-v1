@@ -1,18 +1,18 @@
 # Random Quote Generator
-
 #### _This app displays a random quote each time you click a button._
 
 #### _By: Dana Weiss_
 
 ## Description
 
-This project was created for [TreeHouse TalentPath](https://teamtreehouse.com/).
+The purpose of this application is to test basic understanding of PHP syntax and including php files.
+This project was created for [TreeHouse Talentpath](https://join.teamtreehouse.com/talentpath/].
 
 ## Features
 
-The purpose of this application is to test basic understanding of PHP syntax and including php files:
-
 * Users can click a button and a new, random quote will be displayed.
+* Background color changes each time a new quote is displayed.
+* A new quote is displayed after 6 seconds regardless of the button is clicked.
 
 To pass this code review the following criteria are required:
 
@@ -31,9 +31,6 @@ Additionally the app includes:
 - [x] Quotes change automatically after a certain amount of time passes.
 - [x] Background color changes each time the quote changes.
 
-## Known Bugs
- * none
-
 ## Support and contact details
 
 _Contact: hello@mynameisdanaweiss.com_
@@ -43,6 +40,7 @@ _Contact: hello@mynameisdanaweiss.com_
 * _[CSS](https://www.w3.org/TR/CSS/)_
 * _[HTML](https://www.w3.org/TR/html5/)_
 * _[PHP](https://teamcapybara.github.io/capybara/)_
+*_[Javascript](https://www.javascript.com/)_
 
 ## License
 
