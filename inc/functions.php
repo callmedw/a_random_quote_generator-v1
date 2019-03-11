@@ -41,6 +41,7 @@ function getRandomQuote($array) {
   $randomArray = $array[rand(0, $array_count)];
   return $randomArray;
 }
+
 // Takes an array (quotes array) as a parameter and returns a formatted string with HTML tags to print to screen.
 function printQuote($array) {
   $quote = getRandomQuote($array);
