@@ -12,7 +12,7 @@ This project was created for _[TreeHouse Talentpath](https://join.teamtreehouse.
 
 * Users can click a button and a new, random quote will be displayed.
 * Background color changes each time a new quote is displayed.
-* A new quote is displayed after 6 seconds regardless of the button is clicked.
+* A new quote is displayed after 6 seconds.
 
 To pass this code review the following criteria are required:
 

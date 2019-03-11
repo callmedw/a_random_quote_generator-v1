@@ -37,23 +37,23 @@ $quotes = [
 
 // Takes an array (the quotes array) as a parameter and returns a random array from the quotes array.
 function getRandomQuote($array) {
-  $randomArray = $array[rand(0, 4)];
+  $array_count = count($array) - 1;
+  $randomArray = $array[rand(0, $array_count)];
   return $randomArray;
 }
-
 // Takes an array (quotes array) as a parameter and returns a formatted string with HTML tags to print to screen.
 function printQuote($array) {
   $quote = getRandomQuote($array);
   $quoteToPrint = " ";
-  if ($quote['tag']) {
+  if (isset($quote['tag'])) {
     $quoteToPrint .="<p class='tag'> $quote[tag] </p>";
   }
   $quoteToPrint .="<p class='quote'> $quote[quote] </p>";
   $quoteToPrint .="<p class='source'> $quote[source]";
-  if ($quote['citation']) {
+  if (isset($quote['citation'])) {
     $quoteToPrint .="<span class='citation'> $quote[citation] </span>";
   }
-  if ($quote['year']) {
+  if (isset($quote['year'])) {
     $quoteToPrint .="<span class='year'> $quote[year] </span>";
   }
   $quoteToPrint .= "</p>";

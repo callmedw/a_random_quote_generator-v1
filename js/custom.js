@@ -1,6 +1,6 @@
 // generate a random 3 digit rgb value
 function getRandomNum() {
-  let randomNum = Math.floor((Math.random() * 256) + 1);
+  let randomNum = Math.floor((Math.random() * 256));
   return randomNum;
 }
 
